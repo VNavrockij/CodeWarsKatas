@@ -11,9 +11,15 @@ public class HighestAndLowest {
     }
 
         public static String highAndLow(String numbers) {
-            // Code here or
+            // highAndLow("1 2 3 4 5");  // return "5 1"
+
             String[] subStr = numbers.split(" ");
 
+            int resIntOne, resIntTwo, temp;
+
+            for (int i = 0; i < subStr.length; i++) {
+                temp = Integer.parseInt(subStr[i]);
+            }
             return "throw towel";
         }
 
